@@ -1,7 +1,10 @@
 import Image from "next/image";
 import localFont from "next/font/local";
 import NavBar from "@/components/NavBar";
-
+import Footer from "@/components/Footer";
+import Form from "@/components/Form";
+import { useState } from "react";
+import ImageSlideShow from "@/components/ImageSlideShow";
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -16,7 +19,14 @@ const geistMono = localFont({
 export default function Home() {
   return (
     <>
-      <NavBar></NavBar>
+      <div className="flex flex-col min-h-screen">
+        <main className="flex-grow">
+          <NavBar></NavBar>
+          <ImageSlideShow />
+          <Form />
+        </main>
+        <Footer />
+      </div>
     </>
   );
 }
