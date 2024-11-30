@@ -73,11 +73,17 @@ export default function Home() {
             </p>
           </section>
           <Form />
-          <div className="container text-center hover:text-blue-400">
-            <Link href="https://colab.research.google.com/drive/17KkI5bqJbLn0OCzkTTOrybIf58Dlq3Z7?authuser=2">
+          <div className="container text-center grid grid-cols-1">
+            <Link
+              href="https://colab.research.google.com/drive/17KkI5bqJbLn0OCzkTTOrybIf58Dlq3Z7?authuser=2"
+              className="hover:text-blue-400"
+            >
               Model Training
             </Link>
-            <Link href="https://colab.research.google.com/drive/17KkI5bqJbLn0OCzkTTOrybIf58Dlq3Z7?authuser=2">
+            <Link
+              href="https://colab.research.google.com/drive/17KkI5bqJbLn0OCzkTTOrybIf58Dlq3Z7?authuser=2"
+              className="hover:text-blue-400"
+            >
               Model Training
             </Link>
           </div>
