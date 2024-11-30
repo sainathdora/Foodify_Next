@@ -9,13 +9,13 @@ export default function Footer() {
             K Sainath DoraBabu
           </Link>
           <Link href="/" className="hover:text-blue-400">
-            B Shanshank
+            B Shashank
           </Link>
           <Link href="/" className="hover:text-blue-400">
             K Hrishikesh
           </Link>
           <Link href="/" className="hover:text-blue-400">
-            Abhiseik Pandey
+            Abhishek Pandey
           </Link>
         </div>
       </div>
