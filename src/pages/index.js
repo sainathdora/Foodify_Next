@@ -4,6 +4,7 @@ import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import Form from "@/components/Form";
 import { useState } from "react";
+import Link from "next/link";
 import ImageSlideShow from "@/components/ImageSlideShow";
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -72,6 +73,12 @@ export default function Home() {
             </p>
           </section>
           <Form />
+          <Link href="https://colab.research.google.com/drive/17KkI5bqJbLn0OCzkTTOrybIf58Dlq3Z7?authuser=2">
+            Model Training
+          </Link>
+          <Link href="https://colab.research.google.com/drive/17KkI5bqJbLn0OCzkTTOrybIf58Dlq3Z7?authuser=2">
+            Model Training
+          </Link>
         </main>
         <Footer />
       </div>
